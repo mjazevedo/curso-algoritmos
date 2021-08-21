@@ -7,6 +7,7 @@ var
    volume, r, altura : real
 inicio
 // Seção de Comandos 
+   escreval("-----------------------------------------------------------")
    escreva("Digite o raio da lata de oleo: ")
    leia(r)
    escreva("Digite a altura da lata de oleo: ")
@@ -14,5 +15,11 @@ inicio
    
    volume <- 3.14159 * Exp(r, 2) * altura
    
-   escreva("Volume da lata de oleo: ", volume:4:2)
+   
+   escreval("-----------------------------------------------------------")
+   escreval("Raio da lata de oleo digitada: ", r, " metros")
+   escreval("A altra da lata de oleo digitada: ", altura, " metros")
+   escreval("Volume da lata de oleo: ", volume:4:2, " metros cubicos")
+   escreval("-----------------------------------------------------------")
+   
 fimalgoritmo
