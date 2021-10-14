@@ -3,7 +3,7 @@ Algoritmo "mais_velho"
 Var
 // Seção de Declarações das variáveis
     idade : vetor [0..9] de real
-    N, i, j, num_pessoa, maior' : inteiro
+    N, i, maior : inteiro
     nome : vetor [0..9] de caractere
     mais_velho : real
 
@@ -13,8 +13,7 @@ Inicio
    leia(N)
 
    para i de 0 ate N - 1 faca
-        num_pessoa <- i + 1
-        escreval("Dados da ", num_pessoa, "a pessoa:")
+        escreval("Dados da ", i + 1, "a pessoa:")
         escreva("Nome: ")
         leia(nome[i])
         escreva("Idade: ")

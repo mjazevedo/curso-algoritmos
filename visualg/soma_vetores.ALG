@@ -2,9 +2,8 @@ Algoritmo "soma_vetores"
 
 Var
 // Seção de Declarações das variáveis 
-   a, b : vetor [0..9] de real
+   a, b, c : vetor [0..9] de real
    N, i : inteiro
-   soma : real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Quantos valores vai ter cada vetor? ")
@@ -18,9 +17,11 @@ Inicio
    para i de 0 ate N - 1 faca
         leia(b[i])
    fimpara
+   para i de 0 ate N - 1 faca
+        c[i] <- a[i] + b[i]
+   fimpara
    escreval("VETOR RESULTANTE:")
    para i de 0 ate N - 1 faca
-        soma <- a[i] + b[i]
-        escreval(soma)
+        escreval(c[i])
    fimpara
 Fimalgoritmo
