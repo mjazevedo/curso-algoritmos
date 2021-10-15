@@ -37,11 +37,11 @@ Inicio
                    soma <- soma + altura[i]
                    num_mulheres <- num_mulheres + 1
                    media <- soma / num_mulheres
+                   escreval("Media das alturas das mulheres = ", media:4:2)
                 fimse
         fimse
    fimpara
    escreval("Menor altura = ", menor:4:2)
    escreval("Maior altura = ", maior:4:2)
-   escreval("Media das alturas das mulheres = ", media:4:2)
    escreva("Numero de homens = ", num_homens:4:2)
 Fimalgoritmo
