@@ -33,7 +33,7 @@ Inicio
          se lucro_porcent < 10 entao
             abaixo <- abaixo + 1
             senao
-                 se (lucro_porcent >= 10) e (lucro_porcent <= 20) entao
+                 se lucro_porcent <= 20 entao
                     entre <- entre + 1
                     senao
                          se lucro_porcent > 20 entao
