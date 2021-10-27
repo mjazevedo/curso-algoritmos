@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635376782 source:c:\workspace\curso-algoritmos\c\duracao\main.c
+	<stdio.h>
+	<locale.h>
+

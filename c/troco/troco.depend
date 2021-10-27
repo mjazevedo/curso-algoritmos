@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635365895 source:c:\workspace\curso-algoritmos\c\troco\main.c
+	<stdio.h>
+	<locale.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635368202 source:c:\workspace\curso-algoritmos\c\circulo\main.c
+	<stdio.h>
+	<math.h>
+
