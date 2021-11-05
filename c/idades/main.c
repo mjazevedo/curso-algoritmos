@@ -22,27 +22,30 @@ int main()
     char nome1[50];
     char nome2[50];
 
-    double idade1;
-    double idade2;
+    int idade1;
+    int idade2;
 
     double media;
 
     printf("Dados da primeira pessoa:\n");
     printf("Nome: ");
-    ler_texto(nome1, 50);
+    //ler_texto(nome1, 50);
+    gets(nome1);
     printf("Idade: ");
-    scanf("%lf", &idade1);
+    scanf("%d", &idade1);
 
     printf("Dados da segunda pessoa:\n");
     printf("Nome: ");
-    limpar_entrada();
-    ler_texto(nome2, 50);
+    fseek(stdin, 0, SEEK_END);
+    gets(nome2);
+    //limpar_entrada();
+    //ler_texto(nome2, 50);
     printf("Idade: ");
-    scanf("%lf", &idade2);
+    scanf("%d", &idade2);
 
-    media = (idade1 + idade2) / 2;
+    media = (double)(idade1 + idade2) / 2;
 
-    printf("A idade media de Maria Silva e Joao Melo e de %.1lf anos", media);
+    printf("A idade media de %s e %s e de %.1lf anos", nome1, nome2, media);
 
     return 0;
 

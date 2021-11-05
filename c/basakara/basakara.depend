@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1635942531 source:c:\workspace\curso-algoritmos\c\basakara\main.c
+	<stdio.h>
+	<math.h>
+
