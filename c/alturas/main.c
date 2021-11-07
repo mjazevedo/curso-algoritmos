@@ -21,8 +21,6 @@ int main()
     char nome[N][50];
     double idade[N], altura[N], media, soma_alturas, porcentagem;
 
-
-
     for(i = 0; i < N; i++)
     {
         printf("Dados da %da pessoa:\n", i+1);
@@ -34,20 +32,32 @@ int main()
         scanf("%lf", &idade[i]);
         printf("Altura: ");
         scanf("%lf", &altura[i]);
-
-        soma_alturas = soma_alturas + altura[i];
     }
+
+    soma_alturas = 0;
 
     for(i = 0; i < N; i++)
     {
-      if(idade[i] < 16){
-        j++
-        printf("%lf\n", nome[i]);
-      }
+       soma_alturas = soma_alturas + altura[i] ;
     }
-    porcentagem = (j/N) * 100;
-    printf("Pessoas com menos de 16 anos: %.1lf%\n", porcentagem);
 
+    media = soma_alturas / N;
+    printf("Altura media: %.2lf\n", media);
 
+    for(i = 0; i < N; i++)
+    {
+        if(idade[i] < 16){
+            j++;
+        }
+    }
+
+    porcentagem = j * 100 / N;
+    printf("Pessoas com menos de 16 anos: %.lf %%\n", porcentagem);
+    for(i = 0; i < N; i++)
+    {
+        if(idade[i] < 16){
+            printf("%s\n", nome[i]);
+        }
+    }
     return 0;
 }
