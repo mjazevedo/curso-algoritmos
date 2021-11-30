@@ -15,6 +15,7 @@ Os exercícios do curso foram divididos em pastas de acordo com a linguagem util
 - C#
 - Python
 
+![Certificado do curso](https://images-na.ssl-images-amazon.com/images/I/51JyDHSDxhL.jpg)
 
 # Algoritmos - Lógica Para Desenvolvimento De Programação De Computadores
 
