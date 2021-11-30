@@ -15,7 +15,7 @@ Os exercícios do curso foram divididos em pastas de acordo com a linguagem util
 - C#
 - Python
 
-[Certificado do curso](https://udemy-certificate.s3.amazonaws.com/image/UC-67ca03f9-7bf7-47f8-af97-594af3296510.jpg?v=1637765900000)
+![Certificado do curso](https://udemy-certificate.s3.amazonaws.com/image/UC-67ca03f9-7bf7-47f8-af97-594af3296510.jpg?v=1637765900000)
 
 # Algoritmos - Lógica Para Desenvolvimento De Programação De Computadores
 
